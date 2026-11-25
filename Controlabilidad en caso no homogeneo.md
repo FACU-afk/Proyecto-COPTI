@@ -5,7 +5,7 @@ Linealizamos a lo largo de una trayectoria con pendiente y energía cinética va
 **Trayectoria de referencia.** Sea $P\in C^1([0,S])$ arbitrario (por ejemplo, un "lomo de burro" cerca de las estaciones) y sea
 
 $$
-\bar K(s) = K_{\min} + (K_c - K_{\min})\sin^2\!\left(\frac{\pi s}{S}\right), \qquad K_{\min}=2,\quad K_c=60,\quad S=1000,
+\bar K(s) = K_{\min} + (K_c - K_{\min})\sin^2\left(\frac{\pi s}{S}\right), \qquad K_{\min}=2,\quad K_c=60,\quad S=1000,
 $$
 
 que es de clase $C^\infty$ y cumple $\bar K(s)\ge K_{\min}>0$.
