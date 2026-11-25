@@ -46,7 +46,15 @@ es definido positivo, donde $\Phi(s,\sigma)$ es la resolvente de $\dot y=A(s)y$.
 Haciendo los cálculos obtenemos
 
 $$
-\Phi(S,\sigma)=\begin{pmatrix}g_1(\sigma)&0&0\\ g_2(\sigma)&1&0\\0&0&1\end{pmatrix}, \qquad g_1(\sigma)=e^{-\int_\sigma^S\lambda(r)\,dr},\quad g_2(\sigma)=-\int_\sigma^S\kappa(r)\,e^{-\int_\sigma^r\lambda}\,dr,
+\Phi(S,\sigma)=\left(\begin{array}{ccc}
+g_1(\sigma) & 0 & 0 \\
+g_2(\sigma) & 1 & 0 \\
+0 & 0 & 1
+\end{array}\right)
+$$
+
+$$
+g_1(\sigma)=e^{-\int_\sigma^S\lambda(r)\,dr}, \qquad g_2(\sigma)=-\int_\sigma^S\kappa(r)\,e^{-\int_\sigma^r\lambda}\,dr
 $$
 
 con $g_1>0$, $g_1'=\lambda g_1$ y $g_2'=\kappa+\lambda g_2$. Las columnas de $\Phi B$ son $\pm(g_1,g_2,1)^\top$ y $\pm(g_1,g_2,\alpha)^\top$, de modo que
