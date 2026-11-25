@@ -13,7 +13,16 @@ que es de clase $C^\infty$ y cumple $\bar K(s)\ge K_{\min}>0$.
 **Sistema linealizado.** Con $x=(E,t,J)^\top$ obtenemos las matrices
 
 $$
-A(s)=\begin{pmatrix}-\lambda(s)&0&0\\-\kappa(s)&0&0\\0&0&0\end{pmatrix}, \qquad B=\begin{pmatrix}1&-1\\0&0\\1&-\alpha\end{pmatrix},
+A(s)=\left(\begin{array}{ccc}
+-\lambda(s) & 0 & 0 \\
+-\kappa(s) & 0 & 0 \\
+0 & 0 & 0
+\end{array}\right), \qquad
+B=\left(\begin{array}{cc}
+1 & -1 \\
+0 & 0 \\
+1 & -\alpha
+\end{array}\right)
 $$
 
 con
